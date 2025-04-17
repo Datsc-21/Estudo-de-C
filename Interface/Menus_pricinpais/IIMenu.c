@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "../Prototipos/prototipo_cliente.h"
+#include "../Prototipos/prototipo_curriculo.h"
+#include "../Prototipos/prototipo_venda.h"
+
 
 void menu_II(){ 
 int op;
@@ -26,8 +29,10 @@ do{
     registra_cliente();
         break;
     case 2:
+    criar_curriculo();
         break;
     case 3:
+    criar_venda();
         break;
     case 0:
         break;
