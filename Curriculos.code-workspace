@@ -7,7 +7,8 @@
 	"settings": {
 		"files.associations": {
 			"stdio.h": "c",
-			"prototipo_curriculo.h": "c"
+			"prototipo_curriculo.h": "c",
+			"prototipo_cliente.h": "c"
 		}
 	}
 }

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "../Prototipos/prototipo_curriculo.h"
 
-void criar_curriculo(){
+void curriculo(){
 int opc_curr;
 
     do{
@@ -26,22 +26,22 @@ int opc_curr;
 
         switch (opc_curr)
         {
-        case 1:
+        case 1: criar_curriculo();
+            
+            break; 
+        case 2: atualizar_curriculo();
             
             break;
-        case 2:
+        case 3: colsuntar_curriculo();
             
             break;
-        case 3:
+        case 4: remover_curriculo();
             
             break;
-        case 4:
+        case 5: imprimir_curriculo();
             
             break;
-        case 5:
-            
-            break;
-        case 6:
+        case 6: imprimir_lista_curriculo();
             
             break;
         case 0:

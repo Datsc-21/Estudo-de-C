@@ -26,13 +26,13 @@ do{
     switch (op)
     {
     case 1:
-    registra_cliente();
+    cliente();
         break;
     case 2:
-    criar_curriculo();
+    curriculo();
         break;
     case 3:
-    criar_venda();
+    venda();
         break;
     case 0:
         break;

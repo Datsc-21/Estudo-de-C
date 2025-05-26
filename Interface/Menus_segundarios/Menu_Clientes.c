@@ -3,7 +3,7 @@
 #include "../Prototipos/prototipo_cliente.h"
 
 
-void registra_cliente(){
+void cliente(){
 int opc_c;
 
     do{
@@ -27,17 +27,17 @@ system("clear");
 
 switch (opc_c)
 {
-case 1:
+case 1: registrar_cliente();
      break;
-case 2:
+case 2: atualizar_cliente();
      break;
-case 3:
+case 3: colsuntar_cliente();
      break;
-case 4:
+case 4: remover_cliente();
      break;
-case 5:
+case 5: imprimir_cliente();
      break;
-case 6:
+case 6: imprimir_lista_cliente();
      break;
 case 0: 
 break;

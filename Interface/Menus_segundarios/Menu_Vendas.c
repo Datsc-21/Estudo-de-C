@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "../Prototipos/prototipo_venda.h"
 
-void criar_venda() {
+void venda() {
 int op_ven;
 
 do{
@@ -26,22 +26,22 @@ do{
 
         switch (op_ven)
         {
-        case 1:
+        case 1: criar_venda();
             
             break;
-        case 2:
+        case 2: atualizar_venda();
             
             break;
-        case 3:
+        case 3: colsuntar_venda();
             
             break;
-        case 4:
+        case 4: remover_venda();
             
             break;
-        case 5:
+        case 5: imprimir_venda();
             
             break;
-        case 6:
+        case 6: imprimir_lista_venda();
             
             break;
         case 0:
