@@ -1,5 +1,13 @@
 #pragma once
 
+#define MAX_VENDAS 10
+
+typedef struct {
+    int id;
+    int data_do_dia;
+
+} VENDA;
+
 void venda();
 
 void criar_venda();

@@ -1,5 +1,17 @@
 #pragma once
 
+#define MAX_CURRICULOS 10
+
+typedef struct{
+    char nome[50];
+    char sexo[1];
+    char estado_civil[10];
+    char naturalidade[50];
+    int data_de_nascimento[15];
+
+
+} CURRICULO;
+
 void curriculo();
 
 void criar_curriculo();
